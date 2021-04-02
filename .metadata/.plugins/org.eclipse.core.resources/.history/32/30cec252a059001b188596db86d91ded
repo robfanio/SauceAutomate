@@ -1,0 +1,21 @@
+package smoke;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class Base {
+	WebDriver driver;
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	  String path = System.getProperty("user.dir");
+	  System.setProperty("webdriver.chrome.driver",path+"\\drivers\\chromedriver.exe");
+	  driver = new ChromeDriver();
+	  driver.get("https://www.saucedemo.com/");
+	  System.out.println(path);
+	  
+	  
+  }
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Release2021">
+	<test name="Smoke Test">
+		<classes>
+			<class name="smoke.Test1" />
+
+		</classes>
+</test>
+</suite>

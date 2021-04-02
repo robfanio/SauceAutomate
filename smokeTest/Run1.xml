@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Release2021">
+	<parameters>
+		<parameter name = "browser" value = "chrome"/>
+		<parameter name = "URI" value = "https://www.saucedemo.com/"/>
+	
+	</parameters>
+
+	<test name="Smoke Test">
+		<classes>
+			<class name="smoke.Test1" />
+
+		</classes>
+</test>
+</suite>
